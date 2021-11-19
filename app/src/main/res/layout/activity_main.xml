@@ -4,19 +4,55 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
+    android:background="#FAF9F6"
     android:gravity="center"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
     <TextView
-        android:layout_width="200dp"
-        android:layout_height="60dp"
-        android:text="This is a textview"/>
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="120dp"
+        android:padding="10dp"
+        android:text="Login Page"
+        android:textColor="#6200EE"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edtuname"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:hint="Enter your username"
+        android:inputType="textEmailAddress"
+        android:textColorHint="#6200EE" />
+
+    <EditText
+        android:id="@+id/edtpassword"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:hint="Enter your password"
+        android:inputType="number"
+        android:textColorHint="#6200EE" />
 
     <Button
+        android:id="@+id/button1"
         android:layout_width="wrap_content"
         android:layout_height="50dp"
-        android:text="Click Me"
-        android:id="@+id/button1"/>
+        android:text="Login" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="No account yet? \nClick here to create one for free now!"
+        android:textColor="#6200EE"
+        android:textAlignment="textStart"
+        android:layout_marginTop="200dp"
+        android:gravity="start" />
 
 </LinearLayout>
