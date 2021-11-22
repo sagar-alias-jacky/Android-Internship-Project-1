@@ -4,55 +4,100 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FAF9F6"
-    android:gravity="center"
+    android:background="@color/dark_blue"
+    android:gravity="start"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="120dp"
-        android:padding="10dp"
-        android:text="Login Page"
-        android:textColor="#6200EE"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="20dp"
+        android:padding="15dp"
+        android:text="LOGIN"
+        android:textStyle="bold"
+        android:textColor="@color/white"
         android:textSize="30sp"
-        android:textStyle="bold" />
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textColor="@color/white"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp" />
 
     <EditText
-        android:id="@+id/edtuname"
-        android:layout_width="300dp"
+        android:id="@+id/usernameField"
+        android:layout_width="360dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/white"
         android:layout_marginBottom="20dp"
-        android:gravity="center"
-        android:hint="Enter your username"
+        android:hint="Enter Your Username"
         android:inputType="textEmailAddress"
-        android:textColorHint="#6200EE" />
+        android:layout_marginLeft="15dp"
+        android:textColor="@color/white"
+        android:textColorHint="#2AFFFFFF"
+        android:layout_marginStart="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textColor="@color/white"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp" />
 
     <EditText
-        android:id="@+id/edtpassword"
-        android:layout_width="300dp"
+        android:id="@+id/passwordField"
+        android:layout_width="360dp"
+        android:textColor="@color/white"
+        android:layout_marginLeft="15dp"
+        android:backgroundTint="@color/white"
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
-        android:gravity="center"
-        android:hint="Enter your password"
-        android:inputType="number"
-        android:textColorHint="#6200EE" />
+        android:hint="Enter Your Password"
+        android:inputType="numberPassword"
+        android:textColorHint="#2AFFFFFF"
+        android:layout_marginStart="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgot Password?"
+        android:layout_marginBottom="45dp"
+        android:textColor="@color/white"
+        android:layout_marginEnd="35dp"
+        android:layout_gravity="end"
+        android:layout_marginRight="35dp" />
 
     <Button
-        android:id="@+id/button1"
-        android:layout_width="wrap_content"
+        android:id="@+id/loginButton"
+        android:backgroundTint="@color/dark_amber"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="140dp"
         android:layout_height="50dp"
         android:text="Login" />
 
     <TextView
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:text="No account yet? \nClick here to create one for free now!"
-        android:textColor="#6200EE"
+        android:layout_marginLeft="15dp"
+        android:text="Don't have an account?"
+        android:layout_marginTop="100dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
         android:textAlignment="textStart"
-        android:layout_marginTop="200dp"
         android:gravity="start" />
+
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="Create"
+        android:backgroundTint="@color/dark_amber"
+        android:layout_marginLeft="15dp"/>
 
 </LinearLayout>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="start"
+    android:orientation="vertical"
+    android:background="@color/dark_blue"
+    tools:context=".RegisterPage">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="20dp"
+        android:padding="15dp"
+        android:text="REGISTER"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="First Name"
+        android:textColor="@color/white"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp" />
+
+    <EditText
+        android:id="@+id/firstName"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:layout_marginBottom="20dp"
+        android:hint="Example : Tintu"
+        android:inputType="textPersonName"
+        android:layout_marginLeft="15dp"
+        android:textColor="@color/white"
+        android:textColorHint="#2AFFFFFF"
+        android:layout_marginStart="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Last Name"
+        android:textColor="@color/white"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp" />
+
+    <EditText
+        android:id="@+id/lastName"
+        android:layout_width="360dp"
+        android:textColor="@color/white"
+        android:layout_marginLeft="15dp"
+        android:backgroundTint="@color/white"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:hint="Example : Mon"
+        android:inputType="textPersonName"
+        android:textColorHint="#2AFFFFFF"
+        android:layout_marginStart="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textColor="@color/white"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp" />
+
+    <EditText
+        android:id="@+id/registerEmail"
+        android:layout_width="360dp"
+        android:textColor="@color/white"
+        android:layout_marginLeft="15dp"
+        android:backgroundTint="@color/white"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:hint="Example : tintu@monmail.com"
+        android:inputType="textEmailAddress"
+        android:textColorHint="#2AFFFFFF"
+        android:layout_marginStart="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textColor="@color/white"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp" />
+
+    <EditText
+        android:id="@+id/registerPassword"
+        android:layout_width="360dp"
+        android:textColor="@color/white"
+        android:layout_marginLeft="15dp"
+        android:backgroundTint="@color/white"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:hint="Example : 2255"
+        android:inputType="numberPassword"
+        android:textColorHint="#2AFFFFFF"
+        android:layout_marginStart="15dp" />
+
+    <Button
+        android:id="@+id/registerButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REGISTER"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Already have an account?"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/loginButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:text="LOG IN"/>
+
+</LinearLayout>
