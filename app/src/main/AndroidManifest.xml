@@ -2,6 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.jacky.androidinternship">
 
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,6 +13,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidInternship">
+        <activity
+            android:name=".smsDemo"
+            android:exported="false" />
+        <activity
+            android:name=".CallPage"
+            android:exported="false" />
+        <activity
+            android:name=".MenuDemo"
+            android:exported="false" />
         <activity
             android:name=".RegisterPage"
             android:exported="false" />

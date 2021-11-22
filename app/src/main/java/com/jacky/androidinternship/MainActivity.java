@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
                 String pass = passwordField.getText().toString();
                 if (!uname.isEmpty() && !pass.isEmpty()) {
                     Toast.makeText(getApplicationContext(), uname + " logged in successfully!", Toast.LENGTH_SHORT).show();
-                    Intent intent = new Intent(MainActivity.this, SecondPage.class);
+                    Intent intent = new Intent(MainActivity.this, MenuDemo.class);
                     startActivity(intent);
                 } else {
                     Toast.makeText(getApplicationContext(), "Username and password are required fields!", Toast.LENGTH_LONG).show();
