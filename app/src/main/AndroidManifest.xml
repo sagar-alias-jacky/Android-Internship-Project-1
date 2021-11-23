@@ -14,6 +14,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidInternship">
         <activity
+            android:name=".ContextMenuDemo"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PopUpMenuDemo"
+            android:exported="false" />
+        <activity
             android:name=".smsDemo"
             android:exported="false" />
         <activity
@@ -32,7 +41,7 @@
             android:name=".SecondPage"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".RadioButtonDemo"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

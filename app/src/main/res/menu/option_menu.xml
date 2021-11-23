@@ -12,4 +12,12 @@
         android:id="@+id/item3"
         android:title="Text To Speech" />
 
+    <item
+        android:id="@+id/item4"
+        android:title="Pop Up Menu Demo" />
+
+    <item
+        android:id="@+id/item5"
+        android:title="Context Menu Demo" />
+
 </menu>
